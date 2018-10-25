@@ -1,0 +1,687 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+ <connectionOption>localhost</connectionOption>
+ <rdmgr>
+  <timestamp type="u64_t">1423164826</timestamp>
+  <hostname>JagobaMarcos-PC</hostname>
+  <os>windows</os>
+  <product>Intel® VTune™ Amplifier XE 2015</product>
+  <buildNumber type="s32_t">367959</buildNumber>
+  <logicalCPUCount type="s32_t">8</logicalCPUCount>
+  <CPUFrequency type="s64_t">2400000000</CPUFrequency>
+ </rdmgr>
+ <All_Configurations-All_Platforms>
+  <target_settings>
+   <result_dir>
+    <localhost>F:\Users\Jake\Desktop\Courses\Artificial Intelligence\Lab Repository\02 - Path Planner\Project\PathPlannerApp\My Amplifier XE Results - PathPlannerApp</localhost>
+   </result_dir>
+   <selected_workload>
+    <localhost>launch</localhost>
+   </selected_workload>
+   <result_pattern>
+    <localhost>r@@@{at}</localhost>
+   </result_pattern>
+   <workloads>
+    <localhost>
+     <attach type="pointer" type_id="dasID_cctrl2::AttachWorkload" ptr_type="dasID_cctrl2::IWorkload">
+      <workload>
+       <targetName>attach</targetName>
+       <use_app_dir_as_work_dir type="bool">false</use_app_dir_as_work_dir>
+       <attach.process_name>PathPlannerApp.exe</attach.process_name>
+       <attach.pid type="null"></attach.pid>
+       <result_directory.path>F:\Users\Jake\Desktop\Courses\Artificial Intelligence\Lab Repository\02 - Path Planner\Project\PathPlannerApp\My Amplifier XE Results - PathPlannerApp\r@@@{at}</result_directory.path>
+       <search_directories>
+        <item>
+         <value>sym=F:\Users\Jake\Desktop\Courses\Artificial Intelligence\Lab Repository\02 - Path Planner\Project\Release</value>
+        </item>
+        <item>
+         <value>sym=F:\Users\Jake\Desktop\Courses\Artificial Intelligence\Lab Repository\02 - Path Planner\Project</value>
+        </item>
+        <item>
+         <value>sym=srv*C:\Users\Jake\AppData\Local\Temp\SymbolCache</value>
+        </item>
+        <item>
+         <value>bin=F:\Users\Jake\Desktop\Courses\Artificial Intelligence\Lab Repository\02 - Path Planner\Project\Release</value>
+        </item>
+        <item>
+         <value>bin=F:\Users\Jake\Desktop\Courses\Artificial Intelligence\Lab Repository\02 - Path Planner\Project</value>
+        </item>
+        <item>
+         <value>bin=F:/Users\Jake\Desktop\Courses\Artificial Intelligence\Lab Repository\02 - Path Planner\Project\PathPlannerApp\$(VC_ExecutablePath_x86)</value>
+        </item>
+        <item>
+         <value>bin=F:/Users\Jake\Desktop\Courses\Artificial Intelligence\Lab Repository\02 - Path Planner\Project\PathPlannerApp\$(WindowsSDK_ExecutablePath)</value>
+        </item>
+        <item>
+         <value>bin=F:/Users\Jake\Desktop\Courses\Artificial Intelligence\Lab Repository\02 - Path Planner\Project\PathPlannerApp\$(VS_ExecutablePath)</value>
+        </item>
+        <item>
+         <value>bin=F:/Users\Jake\Desktop\Courses\Artificial Intelligence\Lab Repository\02 - Path Planner\Project\PathPlannerApp\$(MSBuild_ExecutablePath)</value>
+        </item>
+        <item>
+         <value>bin=C:\windows\SysWow64</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Microsoft Visual Studio 12.0\Team Tools\Static Analysis Tools\FxCop</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\NativeBinaries\x86</value>
+        </item>
+        <item>
+         <value>bin=C:\PROGRAM FILES\COMMON FILES\MICROSOFT SHARED\WINDOWS LIVE</value>
+        </item>
+        <item>
+         <value>bin=C:\PROGRAM FILES (X86)\COMMON FILES\MICROSOFT SHARED\WINDOWS LIVE</value>
+        </item>
+        <item>
+         <value>bin=C:\windows\SYSTEM32</value>
+        </item>
+        <item>
+         <value>bin=C:\windows</value>
+        </item>
+        <item>
+         <value>bin=C:\windows\SYSTEM32\WBEM</value>
+        </item>
+        <item>
+         <value>bin=C:\windows\SYSTEM32\WINDOWSPOWERSHELL\V1.0</value>
+        </item>
+        <item>
+         <value>bin=C:\PROGRAM FILES (X86)\ATI TECHNOLOGIES\ATI.ACE\CORE-STATIC</value>
+        </item>
+        <item>
+         <value>bin=C:\PROGRAM FILES (X86)\HEWLETT-PACKARD\HP PERFORMANCE ADVISOR</value>
+        </item>
+        <item>
+         <value>bin=C:\PROGRAM FILES\MICROSOFT\WEB PLATFORM INSTALLER</value>
+        </item>
+        <item>
+         <value>bin=C:\PROGRAM FILES (X86)\MICROSOFT ASP.NET\ASP.NET WEB PAGES\V1.0</value>
+        </item>
+        <item>
+         <value>bin=C:\PROGRAM FILES\MICROSOFT SQL SERVER\110\TOOLS\BINN</value>
+        </item>
+        <item>
+         <value>bin=C:\PROGRAM FILES (X86)\WINDOWS LIVE\SHARED</value>
+        </item>
+        <item>
+         <value>bin=C:\MINGW\BIN</value>
+        </item>
+        <item>
+         <value>bin=C:\MSYS\1.0\BIN</value>
+        </item>
+        <item>
+         <value>bin=C:\MINGW\MSYS\1.0\BIN</value>
+        </item>
+        <item>
+         <value>bin=C:\PROGRAM FILES (X86)\WINDOWS KITS\8.1\WINDOWS PERFORMANCE TOOLKIT</value>
+        </item>
+        <item>
+         <value>bin=C:\PROGRAM FILES (X86)\VISUAL LEAK DETECTOR\BIN\WIN32</value>
+        </item>
+        <item>
+         <value>bin=C:\PROGRAM FILES (X86)\VISUAL LEAK DETECTOR\BIN\WIN64</value>
+        </item>
+        <item>
+         <value>bin=C:\PROGRAM FILES (X86)\HEWLETT-PACKARD\HP SIMPLEPASS IDENTITY PROTECTION\X64</value>
+        </item>
+        <item>
+         <value>bin=C:\PROGRAM FILES (X86)\AUTODESK\BACKBURNER</value>
+        </item>
+        <item>
+         <value>bin=F:\PROGRAM FILES\TORTOISEGIT\BIN</value>
+        </item>
+        <item>
+         <value>bin=C:\PROGRAM FILES (X86)\WINDOWS KITS\8.0\WINDOWS PERFORMANCE TOOLKIT</value>
+        </item>
+        <item>
+         <value>bin=C:\PROGRAM FILES (X86)\MICROSOFT SDKS\TYPESCRIPT\1.0</value>
+        </item>
+        <item>
+         <value>bin=F:\DEVKITPRO\MSYS\BIN</value>
+        </item>
+        <item>
+         <value>bin=C:\PROGRAM FILES (X86)\AMD\ATI.ACE\CORE-STATIC</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files\WIDCOMM\Bluetooth Software</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files\WIDCOMM\Bluetooth Software\syswow64</value>
+        </item>
+        <item>
+         <value>bin=F:\Program Files\ATI Technologies\ATI.ACE\Core-Static</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files\Intel\WiFi\bin</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files\Common Files\Intel\WirelessCommon</value>
+        </item>
+       </search_directories>
+       <context>
+        <contextValue>
+         <id>allowMultipleRuns</id>
+         <value type="bool">false</value>
+        </contextValue>
+        <contextValue>
+         <id>analyzeKvmGuest</id>
+         <value type="bool">false</value>
+        </contextValue>
+        <contextValue>
+         <id>analyzeSystemWide</id>
+         <value type="bool">false</value>
+        </contextValue>
+        <contextValue>
+         <id>cpuMask</id>
+         <value></value>
+        </contextValue>
+        <contextValue>
+         <id>customCollector</id>
+         <value></value>
+        </contextValue>
+        <contextValue>
+         <id>dataLimit</id>
+         <value type="s32_t">500</value>
+        </contextValue>
+        <contextValue>
+         <id>followChild</id>
+         <value type="bool">true</value>
+        </contextValue>
+        <contextValue>
+         <id>followChildStrategy</id>
+         <value></value>
+        </contextValue>
+        <contextValue>
+         <id>goodFastFrameThreshold</id>
+         <value type="double">100</value>
+        </contextValue>
+        <contextValue>
+         <id>kvmGuestKallsyms</id>
+         <value></value>
+        </contextValue>
+        <contextValue>
+         <id>kvmGuestModules</id>
+         <value></value>
+        </contextValue>
+        <contextValue>
+         <id>kvmProfileGuest</id>
+         <value type="null"></value>
+        </contextValue>
+        <contextValue>
+         <id>mrteMode</id>
+         <value>auto</value>
+        </contextValue>
+        <contextValue>
+         <id>slowGoodFrameThreshold</id>
+         <value type="double">40</value>
+        </contextValue>
+        <contextValue>
+         <id>targetDurationType</id>
+         <value>short</value>
+        </contextValue>
+        <contextValue>
+         <id>targetType</id>
+         <value>attach</value>
+        </contextValue>
+       </context>
+      </workload>
+     </attach>
+     <launch type="pointer" type_id="dasID_cctrl2::ApplicationWorkload" ptr_type="dasID_cctrl2::IWorkload">
+      <workload>
+       <targetName>launch</targetName>
+       <launch_app.inherit_sys_environment type="bool">true</launch_app.inherit_sys_environment>
+       <launch_app.app_to_launch>F:\Users\Jake\Desktop\Courses\Artificial Intelligence\Lab Repository\02 - Path Planner\Project\Release\PathPlannerApp.exe</launch_app.app_to_launch>
+       <launch_app.working_folder>F:\Users\Jake\Desktop\Courses\Artificial Intelligence\Lab Repository\02 - Path Planner\Project</launch_app.working_folder>
+       <launch_app.app_parameters></launch_app.app_parameters>
+       <launch_app.environment></launch_app.environment>
+       <launch_app.environment_prepend>PATH=</launch_app.environment_prepend>
+       <use_app_dir_as_work_dir type="bool">false</use_app_dir_as_work_dir>
+       <result_directory.path>F:\Users\Jake\Desktop\Courses\Artificial Intelligence\Lab Repository\02 - Path Planner\Project\PathPlannerApp\My Amplifier XE Results - PathPlannerApp\r@@@{at}</result_directory.path>
+       <search_directories>
+        <item>
+         <value>sym=F:\Users\Jake\Desktop\Courses\Artificial Intelligence\Lab Repository\02 - Path Planner\Project\Release</value>
+        </item>
+        <item>
+         <value>sym=F:\Users\Jake\Desktop\Courses\Artificial Intelligence\Lab Repository\02 - Path Planner\Project</value>
+        </item>
+        <item>
+         <value>sym=srv*C:\Users\Jake\AppData\Local\Temp\SymbolCache</value>
+        </item>
+        <item>
+         <value>bin=F:\Users\Jake\Desktop\Courses\Artificial Intelligence\Lab Repository\02 - Path Planner\Project\Release</value>
+        </item>
+        <item>
+         <value>bin=F:\Users\Jake\Desktop\Courses\Artificial Intelligence\Lab Repository\02 - Path Planner\Project</value>
+        </item>
+        <item>
+         <value>bin=F:/Users\Jake\Desktop\Courses\Artificial Intelligence\Lab Repository\02 - Path Planner\Project\PathPlannerApp\$(VC_ExecutablePath_x86)</value>
+        </item>
+        <item>
+         <value>bin=F:/Users\Jake\Desktop\Courses\Artificial Intelligence\Lab Repository\02 - Path Planner\Project\PathPlannerApp\$(WindowsSDK_ExecutablePath)</value>
+        </item>
+        <item>
+         <value>bin=F:/Users\Jake\Desktop\Courses\Artificial Intelligence\Lab Repository\02 - Path Planner\Project\PathPlannerApp\$(VS_ExecutablePath)</value>
+        </item>
+        <item>
+         <value>bin=F:/Users\Jake\Desktop\Courses\Artificial Intelligence\Lab Repository\02 - Path Planner\Project\PathPlannerApp\$(MSBuild_ExecutablePath)</value>
+        </item>
+        <item>
+         <value>bin=C:\windows\SysWow64</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Microsoft Visual Studio 12.0\Team Tools\Static Analysis Tools\FxCop</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\NativeBinaries\x86</value>
+        </item>
+        <item>
+         <value>bin=C:\PROGRAM FILES\COMMON FILES\MICROSOFT SHARED\WINDOWS LIVE</value>
+        </item>
+        <item>
+         <value>bin=C:\PROGRAM FILES (X86)\COMMON FILES\MICROSOFT SHARED\WINDOWS LIVE</value>
+        </item>
+        <item>
+         <value>bin=C:\windows\SYSTEM32</value>
+        </item>
+        <item>
+         <value>bin=C:\windows</value>
+        </item>
+        <item>
+         <value>bin=C:\windows\SYSTEM32\WBEM</value>
+        </item>
+        <item>
+         <value>bin=C:\windows\SYSTEM32\WINDOWSPOWERSHELL\V1.0</value>
+        </item>
+        <item>
+         <value>bin=C:\PROGRAM FILES (X86)\ATI TECHNOLOGIES\ATI.ACE\CORE-STATIC</value>
+        </item>
+        <item>
+         <value>bin=C:\PROGRAM FILES (X86)\HEWLETT-PACKARD\HP PERFORMANCE ADVISOR</value>
+        </item>
+        <item>
+         <value>bin=C:\PROGRAM FILES\MICROSOFT\WEB PLATFORM INSTALLER</value>
+        </item>
+        <item>
+         <value>bin=C:\PROGRAM FILES (X86)\MICROSOFT ASP.NET\ASP.NET WEB PAGES\V1.0</value>
+        </item>
+        <item>
+         <value>bin=C:\PROGRAM FILES\MICROSOFT SQL SERVER\110\TOOLS\BINN</value>
+        </item>
+        <item>
+         <value>bin=C:\PROGRAM FILES (X86)\WINDOWS LIVE\SHARED</value>
+        </item>
+        <item>
+         <value>bin=C:\MINGW\BIN</value>
+        </item>
+        <item>
+         <value>bin=C:\MSYS\1.0\BIN</value>
+        </item>
+        <item>
+         <value>bin=C:\MINGW\MSYS\1.0\BIN</value>
+        </item>
+        <item>
+         <value>bin=C:\PROGRAM FILES (X86)\WINDOWS KITS\8.1\WINDOWS PERFORMANCE TOOLKIT</value>
+        </item>
+        <item>
+         <value>bin=C:\PROGRAM FILES (X86)\VISUAL LEAK DETECTOR\BIN\WIN32</value>
+        </item>
+        <item>
+         <value>bin=C:\PROGRAM FILES (X86)\VISUAL LEAK DETECTOR\BIN\WIN64</value>
+        </item>
+        <item>
+         <value>bin=C:\PROGRAM FILES (X86)\HEWLETT-PACKARD\HP SIMPLEPASS IDENTITY PROTECTION\X64</value>
+        </item>
+        <item>
+         <value>bin=C:\PROGRAM FILES (X86)\AUTODESK\BACKBURNER</value>
+        </item>
+        <item>
+         <value>bin=F:\PROGRAM FILES\TORTOISEGIT\BIN</value>
+        </item>
+        <item>
+         <value>bin=C:\PROGRAM FILES (X86)\WINDOWS KITS\8.0\WINDOWS PERFORMANCE TOOLKIT</value>
+        </item>
+        <item>
+         <value>bin=C:\PROGRAM FILES (X86)\MICROSOFT SDKS\TYPESCRIPT\1.0</value>
+        </item>
+        <item>
+         <value>bin=F:\DEVKITPRO\MSYS\BIN</value>
+        </item>
+        <item>
+         <value>bin=C:\PROGRAM FILES (X86)\AMD\ATI.ACE\CORE-STATIC</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files\WIDCOMM\Bluetooth Software</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files\WIDCOMM\Bluetooth Software\syswow64</value>
+        </item>
+        <item>
+         <value>bin=F:\Program Files\ATI Technologies\ATI.ACE\Core-Static</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files\Intel\WiFi\bin</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files\Common Files\Intel\WirelessCommon</value>
+        </item>
+       </search_directories>
+       <context>
+        <contextValue>
+         <id>allowMultipleRuns</id>
+         <value type="bool">false</value>
+        </contextValue>
+        <contextValue>
+         <id>analyzeKvmGuest</id>
+         <value type="bool">false</value>
+        </contextValue>
+        <contextValue>
+         <id>analyzeSystemWide</id>
+         <value type="bool">false</value>
+        </contextValue>
+        <contextValue>
+         <id>cpuMask</id>
+         <value></value>
+        </contextValue>
+        <contextValue>
+         <id>customCollector</id>
+         <value></value>
+        </contextValue>
+        <contextValue>
+         <id>dataLimit</id>
+         <value type="s32_t">500</value>
+        </contextValue>
+        <contextValue>
+         <id>followChild</id>
+         <value type="bool">true</value>
+        </contextValue>
+        <contextValue>
+         <id>followChildStrategy</id>
+         <value></value>
+        </contextValue>
+        <contextValue>
+         <id>goodFastFrameThreshold</id>
+         <value type="double">100</value>
+        </contextValue>
+        <contextValue>
+         <id>kvmGuestKallsyms</id>
+         <value></value>
+        </contextValue>
+        <contextValue>
+         <id>kvmGuestModules</id>
+         <value></value>
+        </contextValue>
+        <contextValue>
+         <id>kvmProfileGuest</id>
+         <value type="null"></value>
+        </contextValue>
+        <contextValue>
+         <id>mrteMode</id>
+         <value>native</value>
+        </contextValue>
+        <contextValue>
+         <id>slowGoodFrameThreshold</id>
+         <value type="double">40</value>
+        </contextValue>
+        <contextValue>
+         <id>targetDurationType</id>
+         <value>short</value>
+        </contextValue>
+        <contextValue>
+         <id>targetType</id>
+         <value>launch</value>
+        </contextValue>
+       </context>
+      </workload>
+     </launch>
+     <system type="pointer" type_id="dasID_cctrl2::SystemWideWorkload" ptr_type="dasID_cctrl2::IWorkload">
+      <workload>
+       <targetName>system</targetName>
+       <use_app_dir_as_work_dir type="bool">false</use_app_dir_as_work_dir>
+       <result_directory.path>F:\Users\Jake\Desktop\Courses\Artificial Intelligence\Lab Repository\02 - Path Planner\Project\PathPlannerApp\My Amplifier XE Results - PathPlannerApp\r@@@{at}</result_directory.path>
+       <search_directories>
+        <item>
+         <value>sym=F:\Users\Jake\Desktop\Courses\Artificial Intelligence\Lab Repository\02 - Path Planner\Project\Release</value>
+        </item>
+        <item>
+         <value>sym=F:\Users\Jake\Desktop\Courses\Artificial Intelligence\Lab Repository\02 - Path Planner\Project</value>
+        </item>
+        <item>
+         <value>sym=srv*C:\Users\Jake\AppData\Local\Temp\SymbolCache</value>
+        </item>
+        <item>
+         <value>bin=F:\Users\Jake\Desktop\Courses\Artificial Intelligence\Lab Repository\02 - Path Planner\Project\Release</value>
+        </item>
+        <item>
+         <value>bin=F:\Users\Jake\Desktop\Courses\Artificial Intelligence\Lab Repository\02 - Path Planner\Project</value>
+        </item>
+        <item>
+         <value>bin=F:/Users\Jake\Desktop\Courses\Artificial Intelligence\Lab Repository\02 - Path Planner\Project\PathPlannerApp\$(VC_ExecutablePath_x86)</value>
+        </item>
+        <item>
+         <value>bin=F:/Users\Jake\Desktop\Courses\Artificial Intelligence\Lab Repository\02 - Path Planner\Project\PathPlannerApp\$(WindowsSDK_ExecutablePath)</value>
+        </item>
+        <item>
+         <value>bin=F:/Users\Jake\Desktop\Courses\Artificial Intelligence\Lab Repository\02 - Path Planner\Project\PathPlannerApp\$(VS_ExecutablePath)</value>
+        </item>
+        <item>
+         <value>bin=F:/Users\Jake\Desktop\Courses\Artificial Intelligence\Lab Repository\02 - Path Planner\Project\PathPlannerApp\$(MSBuild_ExecutablePath)</value>
+        </item>
+        <item>
+         <value>bin=C:\windows\SysWow64</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Microsoft Visual Studio 12.0\Team Tools\Static Analysis Tools\FxCop</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\NativeBinaries\x86</value>
+        </item>
+        <item>
+         <value>bin=C:\PROGRAM FILES\COMMON FILES\MICROSOFT SHARED\WINDOWS LIVE</value>
+        </item>
+        <item>
+         <value>bin=C:\PROGRAM FILES (X86)\COMMON FILES\MICROSOFT SHARED\WINDOWS LIVE</value>
+        </item>
+        <item>
+         <value>bin=C:\windows\SYSTEM32</value>
+        </item>
+        <item>
+         <value>bin=C:\windows</value>
+        </item>
+        <item>
+         <value>bin=C:\windows\SYSTEM32\WBEM</value>
+        </item>
+        <item>
+         <value>bin=C:\windows\SYSTEM32\WINDOWSPOWERSHELL\V1.0</value>
+        </item>
+        <item>
+         <value>bin=C:\PROGRAM FILES (X86)\ATI TECHNOLOGIES\ATI.ACE\CORE-STATIC</value>
+        </item>
+        <item>
+         <value>bin=C:\PROGRAM FILES (X86)\HEWLETT-PACKARD\HP PERFORMANCE ADVISOR</value>
+        </item>
+        <item>
+         <value>bin=C:\PROGRAM FILES\MICROSOFT\WEB PLATFORM INSTALLER</value>
+        </item>
+        <item>
+         <value>bin=C:\PROGRAM FILES (X86)\MICROSOFT ASP.NET\ASP.NET WEB PAGES\V1.0</value>
+        </item>
+        <item>
+         <value>bin=C:\PROGRAM FILES\MICROSOFT SQL SERVER\110\TOOLS\BINN</value>
+        </item>
+        <item>
+         <value>bin=C:\PROGRAM FILES (X86)\WINDOWS LIVE\SHARED</value>
+        </item>
+        <item>
+         <value>bin=C:\MINGW\BIN</value>
+        </item>
+        <item>
+         <value>bin=C:\MSYS\1.0\BIN</value>
+        </item>
+        <item>
+         <value>bin=C:\MINGW\MSYS\1.0\BIN</value>
+        </item>
+        <item>
+         <value>bin=C:\PROGRAM FILES (X86)\WINDOWS KITS\8.1\WINDOWS PERFORMANCE TOOLKIT</value>
+        </item>
+        <item>
+         <value>bin=C:\PROGRAM FILES (X86)\VISUAL LEAK DETECTOR\BIN\WIN32</value>
+        </item>
+        <item>
+         <value>bin=C:\PROGRAM FILES (X86)\VISUAL LEAK DETECTOR\BIN\WIN64</value>
+        </item>
+        <item>
+         <value>bin=C:\PROGRAM FILES (X86)\HEWLETT-PACKARD\HP SIMPLEPASS IDENTITY PROTECTION\X64</value>
+        </item>
+        <item>
+         <value>bin=C:\PROGRAM FILES (X86)\AUTODESK\BACKBURNER</value>
+        </item>
+        <item>
+         <value>bin=F:\PROGRAM FILES\TORTOISEGIT\BIN</value>
+        </item>
+        <item>
+         <value>bin=C:\PROGRAM FILES (X86)\WINDOWS KITS\8.0\WINDOWS PERFORMANCE TOOLKIT</value>
+        </item>
+        <item>
+         <value>bin=C:\PROGRAM FILES (X86)\MICROSOFT SDKS\TYPESCRIPT\1.0</value>
+        </item>
+        <item>
+         <value>bin=F:\DEVKITPRO\MSYS\BIN</value>
+        </item>
+        <item>
+         <value>bin=C:\PROGRAM FILES (X86)\AMD\ATI.ACE\CORE-STATIC</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files\WIDCOMM\Bluetooth Software</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files\WIDCOMM\Bluetooth Software\syswow64</value>
+        </item>
+        <item>
+         <value>bin=F:\Program Files\ATI Technologies\ATI.ACE\Core-Static</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files\Intel\WiFi\bin</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files\Common Files\Intel\WirelessCommon</value>
+        </item>
+       </search_directories>
+       <context>
+        <contextValue>
+         <id>allowMultipleRuns</id>
+         <value type="bool">false</value>
+        </contextValue>
+        <contextValue>
+         <id>analyzeKvmGuest</id>
+         <value type="bool">false</value>
+        </contextValue>
+        <contextValue>
+         <id>cpuMask</id>
+         <value></value>
+        </contextValue>
+        <contextValue>
+         <id>customCollector</id>
+         <value></value>
+        </contextValue>
+        <contextValue>
+         <id>dataLimit</id>
+         <value type="s32_t">500</value>
+        </contextValue>
+        <contextValue>
+         <id>followChild</id>
+         <value type="bool">true</value>
+        </contextValue>
+        <contextValue>
+         <id>goodFastFrameThreshold</id>
+         <value type="double">100</value>
+        </contextValue>
+        <contextValue>
+         <id>kvmGuestKallsyms</id>
+         <value></value>
+        </contextValue>
+        <contextValue>
+         <id>kvmGuestModules</id>
+         <value></value>
+        </contextValue>
+        <contextValue>
+         <id>kvmProfileGuest</id>
+         <value type="null"></value>
+        </contextValue>
+        <contextValue>
+         <id>mrteMode</id>
+         <value>native</value>
+        </contextValue>
+        <contextValue>
+         <id>slowGoodFrameThreshold</id>
+         <value type="double">40</value>
+        </contextValue>
+        <contextValue>
+         <id>targetDurationType</id>
+         <value>short</value>
+        </contextValue>
+        <contextValue>
+         <id>targetType</id>
+         <value>system</value>
+        </contextValue>
+       </context>
+      </workload>
+     </system>
+    </localhost>
+   </workloads>
+  </target_settings>
+  <searchDirs>
+   <searchCategory>
+    <category type="u8_t">1</category>
+   </searchCategory>
+   <searchCategory>
+    <category type="u8_t">2</category>
+   </searchCategory>
+   <searchCategory>
+    <category type="u8_t">3</category>
+   </searchCategory>
+   <searchCategory>
+    <category type="u8_t">4</category>
+   </searchCategory>
+  </searchDirs>
+  <analysis_type_settings>
+   <selected_analysis_type_path>F:\Program Files (x86)\Intel\VTune Amplifier XE 2015\config\analysis_type\basic_hotspots.cfg</selected_analysis_type_path>
+  </analysis_type_settings>
+ </All_Configurations-All_Platforms>
+ <engine>
+  <knobs>
+   <frameThreshold>
+&lt;bag xmlns:double=&quot;http://www.intel.com/2001/XMLSchema#double&quot;&gt;
+ &lt;minValueThresholds domain=&quot;&quot;&gt;
+  &lt;double:minValueThreshold name=&quot;%SlowFrame&quot;&gt;0&lt;/double:minValueThreshold&gt;
+  &lt;double:minValueThreshold name=&quot;%GoodFrame&quot;&gt;40&lt;/double:minValueThreshold&gt;
+  &lt;double:minValueThreshold name=&quot;%FastFrame&quot;&gt;100&lt;/double:minValueThreshold&gt;
+ &lt;/minValueThresholds&gt;
+&lt;/bag&gt;
+</frameThreshold>
+   <utilizationThreshold>
+&lt;bag xmlns:double=&quot;http://www.intel.com/2001/XMLSchema#double&quot;&gt;
+ &lt;minValueThresholds domain=&quot;&quot;&gt;
+  &lt;double:minValueThreshold name=&quot;Idle&quot;&gt;-8&lt;/double:minValueThreshold&gt;
+  &lt;double:minValueThreshold name=&quot;Poor&quot;&gt;8.0000000000000018e-007&lt;/double:minValueThreshold&gt;
+  &lt;double:minValueThreshold name=&quot;Ok&quot;&gt;4.0007999999999999&lt;/double:minValueThreshold&gt;
+  &lt;double:minValueThreshold name=&quot;Ideal&quot;&gt;6.5&lt;/double:minValueThreshold&gt;
+  &lt;double:minValueThreshold name=&quot;Over&quot;&gt;9.1999999999999993&lt;/double:minValueThreshold&gt;
+ &lt;/minValueThresholds&gt;
+&lt;/bag&gt;
+</utilizationThreshold>
+   <taskThreshold>&lt;bag xmlns:double=&quot;http://www.w3.org/2001/XMLSchema#double&quot;&gt;
+          &lt;minValueThresholds&gt;
+            &lt;double:minValueThreshold name=&quot;%FastTask&quot;&gt;0.0&lt;/double:minValueThreshold&gt;
+            &lt;double:minValueThreshold name=&quot;%GoodTask&quot;&gt;0.20&lt;/double:minValueThreshold&gt;
+            &lt;double:minValueThreshold name=&quot;%SlowTask&quot;&gt;0.80&lt;/double:minValueThreshold&gt;
+          &lt;/minValueThresholds&gt;
+        &lt;/bag&gt;</taskThreshold>
+  </knobs>
+ </engine>
+ <contextValues>
+  <contextValue>
+   <id>emulatorByCtxKnob</id>
+   <value></value>
+  </contextValue>
+ </contextValues>
+</root>

@@ -1,0 +1,98 @@
+-r
+F:\Users\Jake\Desktop\Courses\Artificial Intelligence\Lab Repository\02 - Path Planner\Project\PathPlannerApp\My Amplifier XE Results - PathPlannerApp\r000hs
+--data-limit-mb=500
+--stack-stitching
+--follow-child
+--itt-config=frame
+--stackwalk=offline
+--type=cswitch
+--mrte-mode=native
+--type=cpu:counters:nostack
+--type=cpu:stack
+--interval=10
+--search-dir
+sym=F:\Users\Jake\Desktop\Courses\Artificial Intelligence\Lab Repository\02 - Path Planner\Project\Release
+--search-dir
+sym=F:\Users\Jake\Desktop\Courses\Artificial Intelligence\Lab Repository\02 - Path Planner\Project
+--search-dir
+sym=srv*C:\Users\Jake\AppData\Local\Temp\SymbolCache
+--search-dir
+bin=F:\Users\Jake\Desktop\Courses\Artificial Intelligence\Lab Repository\02 - Path Planner\Project\Release
+--search-dir
+bin=F:\Users\Jake\Desktop\Courses\Artificial Intelligence\Lab Repository\02 - Path Planner\Project
+--search-dir
+bin=F:/Users\Jake\Desktop\Courses\Artificial Intelligence\Lab Repository\02 - Path Planner\Project\PathPlannerApp\$(VC_ExecutablePath_x86)
+--search-dir
+bin=F:/Users\Jake\Desktop\Courses\Artificial Intelligence\Lab Repository\02 - Path Planner\Project\PathPlannerApp\$(WindowsSDK_ExecutablePath)
+--search-dir
+bin=F:/Users\Jake\Desktop\Courses\Artificial Intelligence\Lab Repository\02 - Path Planner\Project\PathPlannerApp\$(VS_ExecutablePath)
+--search-dir
+bin=F:/Users\Jake\Desktop\Courses\Artificial Intelligence\Lab Repository\02 - Path Planner\Project\PathPlannerApp\$(MSBuild_ExecutablePath)
+--search-dir
+bin=C:\windows\SysWow64
+--search-dir
+bin=C:\Program Files (x86)\Microsoft Visual Studio 12.0\Team Tools\Static Analysis Tools\FxCop
+--search-dir
+bin=C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\NativeBinaries\x86
+--search-dir
+bin=C:\PROGRAM FILES\COMMON FILES\MICROSOFT SHARED\WINDOWS LIVE
+--search-dir
+bin=C:\PROGRAM FILES (X86)\COMMON FILES\MICROSOFT SHARED\WINDOWS LIVE
+--search-dir
+bin=C:\windows\SYSTEM32
+--search-dir
+bin=C:\windows
+--search-dir
+bin=C:\windows\SYSTEM32\WBEM
+--search-dir
+bin=C:\windows\SYSTEM32\WINDOWSPOWERSHELL\V1.0
+--search-dir
+bin=C:\PROGRAM FILES (X86)\ATI TECHNOLOGIES\ATI.ACE\CORE-STATIC
+--search-dir
+bin=C:\PROGRAM FILES (X86)\HEWLETT-PACKARD\HP PERFORMANCE ADVISOR
+--search-dir
+bin=C:\PROGRAM FILES\MICROSOFT\WEB PLATFORM INSTALLER
+--search-dir
+bin=C:\PROGRAM FILES (X86)\MICROSOFT ASP.NET\ASP.NET WEB PAGES\V1.0
+--search-dir
+bin=C:\PROGRAM FILES\MICROSOFT SQL SERVER\110\TOOLS\BINN
+--search-dir
+bin=C:\PROGRAM FILES (X86)\WINDOWS LIVE\SHARED
+--search-dir
+bin=C:\MINGW\BIN
+--search-dir
+bin=C:\MSYS\1.0\BIN
+--search-dir
+bin=C:\MINGW\MSYS\1.0\BIN
+--search-dir
+bin=C:\PROGRAM FILES (X86)\WINDOWS KITS\8.1\WINDOWS PERFORMANCE TOOLKIT
+--search-dir
+bin=C:\PROGRAM FILES (X86)\VISUAL LEAK DETECTOR\BIN\WIN32
+--search-dir
+bin=C:\PROGRAM FILES (X86)\VISUAL LEAK DETECTOR\BIN\WIN64
+--search-dir
+bin=C:\PROGRAM FILES (X86)\HEWLETT-PACKARD\HP SIMPLEPASS IDENTITY PROTECTION\X64
+--search-dir
+bin=C:\PROGRAM FILES (X86)\AUTODESK\BACKBURNER
+--search-dir
+bin=F:\PROGRAM FILES\TORTOISEGIT\BIN
+--search-dir
+bin=C:\PROGRAM FILES (X86)\WINDOWS KITS\8.0\WINDOWS PERFORMANCE TOOLKIT
+--search-dir
+bin=C:\PROGRAM FILES (X86)\MICROSOFT SDKS\TYPESCRIPT\1.0
+--search-dir
+bin=F:\DEVKITPRO\MSYS\BIN
+--search-dir
+bin=C:\PROGRAM FILES (X86)\AMD\ATI.ACE\CORE-STATIC
+--search-dir
+bin=C:\Program Files\WIDCOMM\Bluetooth Software
+--search-dir
+bin=C:\Program Files\WIDCOMM\Bluetooth Software\syswow64
+--search-dir
+bin=F:\Program Files\ATI Technologies\ATI.ACE\Core-Static
+--search-dir
+bin=C:\Program Files\Intel\WiFi\bin
+--search-dir
+bin=C:\Program Files\Common Files\Intel\WirelessCommon
+--
+F:\Users\Jake\Desktop\Courses\Artificial Intelligence\Lab Repository\02 - Path Planner\Project\Release\PathPlannerApp.exe
